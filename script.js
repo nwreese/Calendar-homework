@@ -1,4 +1,3 @@
-console.log(dayjs().format("DD/MM/YYYY"))
 $("#currentDay").text(dayjs().format("MM/DD/YYYY H:mm"))
 
 
@@ -11,6 +10,7 @@ setInterval(function() {
 var currentHour = dayjs().format('H');
 
 for(var i = 9; i <= 17; i++) {
+    
     if(currentHour > i) {
         $('#hour-' + i).addClass('past')
     } else if (currentHour == i) {
@@ -18,6 +18,15 @@ for(var i = 9; i <= 17; i++) {
     } else {
         $('#hour-' + i).addClass('future')
     }
+
+    
+    var currentTextArea = $('#' + i) 
+
+    var storedData = localStorage.getItem(i)
+
+    currentTextArea.val(storedData)
+
+
 }
 
    
@@ -26,5 +35,6 @@ $('.saveBtn').on('click', function() {
 
     var targetText = $('#'+targetHour).val();
 
-    localStorage.setItem("description", "saveBtn")
+    localStorage.setItem(targetHour, targetText)
 })
+
