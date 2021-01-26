@@ -1,6 +1,6 @@
 # Work Day Scheduler
 <br>
-https://nwreese.github.io/Calendar-homework/
+https://nwreese.github.io/Work_Day_Scheduler/
 <br>
 Work day scheduler that allows users to save events in each hour. 
 <br>
