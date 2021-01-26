@@ -8,7 +8,7 @@ Time updates dynamically.
 <br>
 Uses HTML, CSS and javaScript
 <br>
-## Live link
+## Deployed-Site
 <br>
 https://nwreese.github.io/Calendar-homework/
 
