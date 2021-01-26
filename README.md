@@ -1,4 +1,4 @@
-# Calendar-homework
+# Work Day Scheduler
 <br>
 https://nwreese.github.io/Calendar-homework/
 <br>
