@@ -12,5 +12,4 @@ Uses HTML, CSS and javaScript
 <br>
 https://nwreese.github.io/Calendar-homework/
 <br>
-
-
+<img src = "Screenshot (26).png">
